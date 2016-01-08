@@ -1,0 +1,13 @@
+---
+layout: default
+---
+<div class="intro">
+  <p>Intro tekst, legt uit hoe het werkt</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus laudantium quibusdam, suscipit nostrum eum incidunt, blanditiis hic. Porro ea delectus, labore doloribus consequatur quis dolorum tenetur animi repellendus, tempora commodi?</p>
+  <a href="#" class="button">registreer</a>
+</div>
+<div class="cards">
+  {% for num in (1...5) %}
+    {% include card.html %}
+  {% endfor %}
+</div>

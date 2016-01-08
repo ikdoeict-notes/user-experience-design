@@ -1,0 +1,9 @@
+---
+layout: default
+---
+<h2>Recente matches</h2>
+<div class="cards">
+  {% for num in (1...6) %}
+    {% include card.html %}
+  {% endfor %}
+</div>

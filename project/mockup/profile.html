@@ -1,0 +1,19 @@
+---
+layout: default
+---
+<div class="profile">
+  <a href="#" class="button">pas aan ...</a>
+  <img src="https://placeimg.com/100/100/people" alt="user avatar">
+  <p>Frank &amp; Simone</p>
+  <p>Werfstraat 131</p>
+  <p>8000 Brugge</p>
+  <p>Houden van Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam tenetur, tempora provident temporibus ipsum porro laborum rem eligendi saepe sed dicta sint mollitia placeat a autem quis velit dignissimos numquam.</p>
+  <p><a href="mailto:frankensimone@winky.com">frankensimone@winky.com</a></p>
+  <p><a href="tel:0032497466234">0032 497 466 234</a></p>
+  <h2><a href="/history.html">Recent gematcht</a></h2>
+  <div class="cards">
+    {% for num in (1..2) %}
+      {% include card.html %}
+    {% endfor %}
+  </div>
+</div>
